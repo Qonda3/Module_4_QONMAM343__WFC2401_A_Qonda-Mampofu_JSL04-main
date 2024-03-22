@@ -4,6 +4,7 @@
 // Given a variable that holds a user's preferred type of Monster Energy drink, 
 // print whether the user prefers a "Regular" or "Sugar-free" variety. If the preference is not set, default to "Regular".
 
+let userPreference = 'Sugar-free';// Possible values: 'Regular', 'Sugar-free', or undefined
 let preferredFlavor = userPreference === 'Sugar-free' ? 'Sugar-free' : 'Regular'; // Possible values: 'Regular', 'Sugar-free', or undefined
 console.log(`${flavorPreference}`);
 
@@ -11,6 +12,7 @@ console.log(`${flavorPreference}`);
 // You have a variable that tracks the number of Monster Energy cans left in the fridge. 
 // Use a ternary operator to print "Time to restock!" if the number is less than 5, or "We're stocked!" if the number is 5 or more.
 
+let cansLeft = 3; //Any number of cans
 let stockMessage = cansLeft < 5 ? 'Time to restock!' : 'We\'re stocked!'; // Any number of cans
 console.log(stockMessage);
 
@@ -20,7 +22,8 @@ console.log(stockMessage);
 // If the heart rate is below 100 bpm, print "Boost needed!", otherwise, print "Energy levels are high!".
 
 let heartRate = 95; // Current heart rate in bpm
-console.log(`'}`);
+let workoutBoost = heartRate < 100 ? 'Boost needed!' : 'Energy levels are high!';
+console.log(workoutBoost);
 
 
 // #### Challenge 4: Temperature Suitability
